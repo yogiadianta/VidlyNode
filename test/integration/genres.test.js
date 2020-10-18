@@ -3,12 +3,12 @@ const {Genre} = require('../../models/genre');
 const {User} = require('../../models/user');
 const mongoose = require('mongoose');
 let server;
-
+//  asd asd asd asd asd asd asd
 describe('/api/genres', () =>{
-  beforeEach(() => { server = require('../../index'); })
+  beforeEach(() => { server = require('../../index'); });
   afterEach(async () => {
     await Genre.remove({});
-    server.close(); 
+    await server.close(); 
   });
 
   describe('GET /', ()=> {
@@ -17,7 +17,7 @@ describe('/api/genres', () =>{
         { name: 'genre1'},
         { name: 'genre2'}
       ]);
-//
+
       const res = await request(server).get('/api/genres');
 
       expect(res.status).toBe(200);

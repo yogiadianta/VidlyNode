@@ -1,7 +1,7 @@
 const {User} = require('../../models/user');
 const { Genre } = require('../../models/genre');
 const request = require('supertest');
-
+// asd
 describe('auth middleware', ()=>{
   beforeEach(() => { 
     server = require('../../index'); 
@@ -9,7 +9,7 @@ describe('auth middleware', ()=>{
   });
   afterEach(async () => { 
     await Genre.remove({});
-    server.close(); 
+    await server.close(); 
   });
   
   let token;

@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get('/another', (req, res, next) => {});
 
-// Get all genre
+// Get all genre asd
 router.get('/', async (req, res) => {
   // throw new Error('Could not get genres.');
   const genres = await Genre.find().sort('name');
