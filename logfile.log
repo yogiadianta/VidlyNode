@@ -799,3 +799,4 @@
 {"message":"moment is not defined","stack":"ReferenceError: moment is not defined\n    at model.rentalSchema.methods.return (D:\\NOTE\\Node\\vidly\\models\\rental.js:68:19)\n    at D:\\NOTE\\Node\\vidly\\routes\\returns.js:22:3\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","level":"error","timestamp":"2020-10-18T07:12:26.823Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-10-18T07:16:06.237Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2020-10-18T07:17:07.589Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2020-10-19T23:41:40.020Z"}

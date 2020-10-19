@@ -1,3 +1,5 @@
 {
-    "jwtPrivateKey": "vidly_jwtPrivateKey"
+    "jwtPrivateKey": "vidly_jwtPrivateKey",
+    // todo create cloud for MongoDB first
+    "db": "vidly_db"
 }
